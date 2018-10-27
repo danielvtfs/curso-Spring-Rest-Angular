@@ -31,6 +31,8 @@ public class CategoriaResource {
 	@Autowired
 	private CategoriaRepository categoriaRepository;
 	
+	//linha para salvar commit github
+	
 	@Autowired
 	private ApplicationEventPublisher publisher;
 
