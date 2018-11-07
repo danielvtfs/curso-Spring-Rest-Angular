@@ -24,8 +24,8 @@ import com.example.algamoney.api.event.RecursoCriadoEvent;
 import com.example.algamoney.api.model.Categoria;
 import com.example.algamoney.api.repository.CategoriaRepository;
 
-@RestController
-@RequestMapping("/categorias")
+@RestController // retorno facilitado(converte direto para json)
+@RequestMapping("/categorias")// mapiamento da requisição entregado na classe categoria
 public class CategoriaResource {
 
 	@Autowired
